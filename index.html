@@ -7,33 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="./style.css">
-    <title>Glo-Kinopoisk</title>
+    <link type="text/css" rel="stylesheet" media="screen" title="style-default" href="./CSS/main.css" />
+    <script src="https://kit.fontawesome.com/62c8ffa843.js"></script>
+    <title>DEADMOVIE</title>
 </head>
 
 <body>
-
-    <nav class="navber">
-        <div class="container">
-            <a href="index.html" class="navbar-brand">Glo-Kinopoisk</a>
-        </div>
-    </nav>
-
-    <div class="container">
-        <div class="jumbotron">
-            <h3 class="text-center">Поиск фильмов</h3>
-            <form id="search-form">
-                <input type="text" class="form-control" id="searchText" placeholder="Введите название...">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brad">DEADMOVIE</a>
+            <form class="navbar-form" id="search-form" role="search">
+                <div class="input-group" style="width: 180px;">
+                    <input type="text" autocomplete="off" class="form-control" placeholder="Search" name="search" id="searchText">
+                    <span class="input-group-btn">
+                        <button class="btn" id="srchbtn" type="btn-default">
+                            <i class="fa fa-search" aria-hidden="false"></i>
+                        </button>
+                    </span>
+                </div>
             </form>
         </div>
-    </div>
+    </nav>
+    <hr>
 
     <div class="container">
         <div id="movies" class="row">
-            
         </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="./JS/script.fetch.js"></script>
 </body>
+
 </html>

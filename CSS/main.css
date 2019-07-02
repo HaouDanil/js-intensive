@@ -1,0 +1,167 @@
+body {
+    background-color: #fff!important;
+    margin: 0;
+    padding: 0;
+}
+.cards {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card {
+    min-height: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 0 4px #9b9a9a;
+    transition: ease 0.2s;
+}
+
+.card a:hover {
+    text-decoration: none !important;
+}
+
+.card-img {
+    box-shadow: 0 .125rem .25rem rgba(43, 42, 42, 0.562) !important;
+    padding: 1rem !important;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: 360px;
+}
+
+.card-main {
+    padding: .75rem !important;
+}
+
+a {
+    color: #2510e6 !important;
+}
+
+a:hover {
+    color: #473bb1 !important;
+}
+
+.badge-primary {
+    background-color: #301ed4 !important;
+}
+
+.text-primary {
+    color: #473bb8 !important;
+}
+
+.btn-primary {
+    background-color: #5d51c2 !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #3d2fc2 !important;
+    color: white !important;
+}
+
+.spinner {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 10px dashed;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-top-color: #aaa;
+    border-right-color: #555;
+    border-bottom-color: #0000;
+    animation: spin 500ms infinite linear;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.moviealert {
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+.dangeralert {
+    background-color: rgba(218, 39, 39, 0.596);
+    color: white !important;
+    border: 2px solid rgba(218, 39, 39, 0.418);
+}
+
+.lightalert {
+    background-color: rgba(33, 184, 91, 0.596);
+    color: white !important;
+    border: 2px solid rgba(39, 218, 129, 0.301);
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar-brad {
+    color: black !important;
+}
+
+.navbar-brad:hover {
+    color: red !important;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0 auto;
+    color: #242424;
+    background-color: #dfdbdb;
+}
+
+.infoposter {
+    box-shadow: 0 .125rem .25rem rgba(43, 42, 42, 0.562) !important;
+    padding: 1rem !important;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: 550px;
+    margin-top: 20px;
+}
+
+.infocaption {
+    margin-top: 10px;
+    font-size: 35px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.infofull {
+    /* border: 1px dashed #473bb9; */
+    border-radius: 20px;
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+}
+
+.infotext {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.inforating {
+    background: #301ed4;
+    font-size: 18px;
+}
+
+.infobutton {
+    margin: 0 auto;
+    background-color: #473bb8 !important;
+    width: 100%;
+    color: white !important;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.infobutton:hover {
+    background-color: #3d2fc2 !important;
+    color: white !important;
+    text-decoration: none;
+}
